@@ -1,0 +1,12 @@
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Hieu_GeoIp/js/geoip": {
+                "url": "<?= $block->getGeoIpUrl(); ?>",
+                "currentUrl" : "<?= $block->getCurrentUrl(); ?>",
+                "fullActionName": "<?= $block->getFullActionName(); ?>",
+                "params": <?= $block->getParams(); ?>
+            }
+        }
+    }
+</script>

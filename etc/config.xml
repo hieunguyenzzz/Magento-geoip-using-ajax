@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <general>
+            <geo_ip>
+                <cdn>GEOIP_COUNTRY_CODE</cdn>
+            </geo_ip>
+        </general>
+    </default>
+</config>
