@@ -24,7 +24,7 @@ define([
                     let {url} = data;
                     if (typeof url !== 'undefined') {
                         console.log(url);
-                        // window.location.href = url;
+                        window.location.href = url;
                     }
                 });
             }
